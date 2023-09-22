@@ -1,0 +1,128 @@
+header {
+    width: 100%;
+    min-height: 300px;
+    padding-top: 3em;
+    background-color: rgba(182, 182, 182, 0.8);
+}
+.main-header .logo img {
+    width: 120px;
+    height: 120px;
+    margin: 0 2em 0 0;
+    float: left;
+}
+.main-header {
+    background-color: rgba(148, 164, 219, 0.8);
+    width: 100%;
+    margin: 2em auto 0 auto;
+    min-height: 80px;
+    height: 10px;
+    display: inline-block;
+    block-size: 80%;
+}
+.main-menu ul li {
+    list-style-type: none;
+    display: inline;
+    text-align: center;
+    padding-left: 75px;
+    padding-right: 0px;
+    border-left: 1px dashed rgba(229, 229, 229, 0.6);
+    line-height: 80px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.main-menu ul li a {
+    text-decoration: none;
+    color: #f9f7f7;
+}
+.main-menu ul li a:hover {
+    color: #000000;
+}
+/* Main */
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 500%;
+    text-emphasis: bold;
+    color: #6e72f0;
+} 
+h2 {
+        font-family: Arial, Helvetica, sans-serif; 
+        font-weight: bolder;
+        color:  rgb(212, 207, 207);
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+   color:  rgb(212, 207, 207);
+}
+
+/* Activities */
+table {
+    width: 1000px;
+    margin: 4em auto 0 auto;
+}
+caption {
+    background: #6e72f0;
+    height: 40px;
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: bold;
+    padding-top: 1em;
+}
+thead {
+    background: #bde1ff;
+}
+tbody {
+    background: rgb(212, 207, 207);
+    text-align: center;
+}
+th,td {
+    width: 225px;
+    height: 75px;
+    vertical-align: middle;
+    border: solid 1px #852b1b;
+}
+th:first-child {
+    width: 125px;
+    height: 50px;
+    background:  #6e72f0;
+    color: #fff;
+}
+td:first-child {
+    font-weight: bold;
+    background: #bde1ff;
+}
+
+/* Text Box */
+div legend {
+    color: #4977D1;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+label {
+    display: block;
+    font-weight: 500;
+    margin-top: 15px 0 0 0;
+}
+input {
+    width: 500px;
+}
+/* Text Box */
+.button [type="submit"] {
+        background-color: #4977D1;
+        color: #fff;
+        font-size: 1em;
+        border: none;
+        width: 100px;
+        height: 25px;
+}
+input[type="radio"] {
+    width: 15px;
+    text-align: right;
+}
+textarea {
+    width: 500px;
+    height: 150px;
+}

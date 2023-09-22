@@ -1,0 +1,156 @@
+<html>
+<head>
+    <title>Laguna Hills Event Map</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+<!-- Container is to wrap everthing -->
+<div id=""Container:>
+<!--website brand -->
+<header>
+    <h1>
+        <img src="images/lagunahillslogo.png" alt="lagunahills crest" width="200" height="200">Laguna Hills Community News Board</h1>
+        
+<div class="main-header">
+    <div class="logo">
+    </div>
+    <nav class="main-menu">
+        <ul>
+            <li><a href="https://www.ci.laguna-hills.ca.us/542/Community-Services">Community Services</a></li>
+            <li><a href="https://lagunahillsca.iqm2.com/">Agendas</a></li>
+            <li><a href="https://www.ci.laguna-hills.ca.us/538/Events">Events</a></li>
+            <li><a href="https://www.ci.laguna-hills.ca.us/241/Forms-Documents-Maps">Forms, Documents, & Maps</a></li>
+            <li><a href="https://www.ci.laguna-hills.ca.us/129/City-Council">City Council</a></li>
+            <li><a href="https://www.ci.laguna-hills.ca.us/Directory.aspx">City Staff Directory</a></li>
+        </u1>
+    </nav>
+</div>
+
+<body>
+
+   <ul id="photo-list">
+ <!--    <li class="photo">
+          <img src="images/photo1.jpg" alt="laguna road">
+        </li>
+        <li class="photo">
+          <img src="images/photo2.jpg" alt="bike trail">
+        </li>
+        <li class="photo">
+          <img src="images/photo3.jpg" alt="firestation">
+        </li>
+        <li class="photo">
+          <img src="images/photo4.jpg" alt="sunset">
+        </li>
+        <li class="photo">
+          <img src="images/photo5.jpg" alt="biking">
+        </li>
+        <li class="photo">
+          <img src="images/photo6.jpg" alt="hiking">
+        </li>
+        <li class="photo">
+          <img src="images/photo7.jpg" alt="beach">
+        </li>
+        <li class="photo">
+          <img src="images/photo8.jpg" alt="downtown">
+        </li>
+        <li class="photo">
+          <img src="images/photo9.jpg" alt="top of the mountain">
+        </li>
+        <li class="photo">
+          <img src="images/photo10.jpg" alt="coves">
+        </li>
+      </ul>
+    -->
+      </body>
+    <script>
+       // Create an array of image data
+var imageData = [
+  {
+    src: 'images/photo1.jpg',
+    alt: 'laguna road',
+    caption: 'Laguna Road',
+  },
+  {
+    src: 'images/photo2.jpg',
+    alt: 'bike trail',
+    caption: 'Bike Trail',
+  },
+  {
+    src: 'images/photo3.jpg',
+    alt: 'firestation',
+    caption: 'Fire Station',
+  },
+  {
+    src: 'images/photo4.jpg',
+    alt: 'sunset',
+    caption: 'Sunset',
+  },
+  {
+    src: 'images/photo5.jpg',
+    alt: 'biking',
+    caption: 'Biking',
+  },
+  {
+    src: 'images/photo6.jpg',
+    alt: 'hiking',
+    caption: 'Hiking',
+  },
+  {
+    src: 'images/photo7.jpg',
+    alt: 'beach',
+    caption: 'Beach',
+  },
+  {
+    src: 'images/photo8.jpg',
+    alt: 'downtown',
+    caption: 'Downtown',
+  },
+  {
+    src: 'images/photo9.jpg',
+    alt: 'top of the mountain',
+    caption: 'Top of the Mountain',
+  },
+  {
+    src: 'images/photo10.jpg',
+    alt: 'coves',
+    caption: 'Coves',
+  }
+];
+
+// Get the ul element by its id
+var ul = document.getElementById('photo-list');
+
+// Loop through the image data and create HTML for each image with captions
+for (var i = 0; i < imageData.length; i++) {
+  // Create a new list item for each image
+  var li = document.createElement('li');
+  li.className = 'photo'; // Add the "photo" class to each list item
+
+  // Create a new image element
+  var img = document.createElement('img');
+  img.src = imageData[i].src;
+  img.alt = imageData[i].alt;
+
+  // Create a caption element
+  var caption = document.createElement('p');
+  caption.textContent = imageData[i].caption;
+
+  // Append the image and caption to the list item
+  li.appendChild(img);
+  li.appendChild(caption);
+
+  // Append the list item to the ul element
+  ul.appendChild(li);
+}
+
+
+       
+    
+    
+      </script>
+
+
+
+
+</html>
